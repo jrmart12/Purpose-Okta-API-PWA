@@ -1,0 +1,45 @@
+{
+  "stateToken": "00PqSUxSFGei8NWSLrFw7sPdyXjlV4LFBRXLYNxmsM",
+  "expiresAt": "2021-12-12T22:17:12.000Z",
+  "status": "MFA_REQUIRED",
+  "_embedded": {
+    "user": {
+      "id": "00u377l50cqpyCRwX5d7",
+      "passwordChanged": "2021-12-12T22:11:22.000Z",
+      "profile": {
+        "login": "devanshnigam0003@gmail.com",
+        "firstName": "dev",
+        "lastName": "nigam",
+        "locale": "en_US",
+        "timeZone": "America/Los_Angeles"
+      }
+    },
+    "factors": [
+      {
+        "id": "emf377ls2gTQdR4uU5d7",
+        "factorType": "email",
+        "provider": "OKTA",
+        "vendorName": "OKTA",
+        "profile": { "email": "d...3@gmail.com" },
+        "_links": {
+          "verify": {
+            "href": "https://dev-05292564.okta.com/api/v1/authn/factors/emf377ls2gTQdR4uU5d7/verify",
+            "hints": { "allow": ["POST"] }
+          }
+        }
+      }
+    ],
+    "policy": {
+      "allowRememberDevice": false,
+      "rememberDeviceLifetimeInMinutes": 0,
+      "rememberDeviceByDefault": false,
+      "factorsPolicyInfo": {}
+    }
+  },
+  "_links": {
+    "cancel": {
+      "href": "https://dev-05292564.okta.com/api/v1/authn/cancel",
+      "hints": { "allow": ["POST"] }
+    }
+  }
+}
